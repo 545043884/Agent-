@@ -1,0 +1,11 @@
+collection_name: agent
+persist_directory: rag/chroma_db
+k: 5
+data_path: data
+md5_hex_store: md5.text
+allow_knowwledge_file_type: ["txt","pdf"]
+
+
+chunk_size: 500
+chunk_overlap: 50
+separators: ["\n\n","\n","。","？","！"," ",""]

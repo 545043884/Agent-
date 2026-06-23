@@ -1,0 +1,9 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+rag/chroma_db/
+logs/
+*.log
+.venv/
+md5.text
+.env
